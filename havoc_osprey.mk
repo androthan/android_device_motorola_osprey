@@ -27,6 +27,9 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1280
 
+# Disable FaceUnlock
+TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey
 PRODUCT_NAME := havoc_osprey
